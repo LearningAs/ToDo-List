@@ -23,7 +23,7 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         getToDoItems()
         // Do any additional setup after loading the view.
     }
-
+    
     func getToDoItems() {
         //get the todoitem from ...
         if let context = (NSApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
